@@ -1,5 +1,6 @@
 import React, { Component} from 'react';
 import { Text, View } from 'react-native';
+import TextBlink from './Blink';
 
 class Greeting extends Component {
   render(){
@@ -20,6 +21,7 @@ export default class MultipleGreetings extends Component {
       >
       <Greeting name="Caro"></Greeting>
       <Greeting name="Test2"></Greeting>
+      <TextBlink/>
       </View>
     )
   }
