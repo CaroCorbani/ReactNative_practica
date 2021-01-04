@@ -5,7 +5,7 @@ import MultipleGreetings from './components/Greetings';
 import App from './App';
 import TextBlink from './components/Blink';
 import StyleExample from './components/StyleExample'
-import { StyleSheet, Text, View} from 'react-native';
+import Register from './components/Register'
 
 
-registerRootComponent(StyleExample);
+registerRootComponent(Register);
