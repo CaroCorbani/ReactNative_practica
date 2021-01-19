@@ -4,8 +4,9 @@ import HelloWorld from './components/HelloWorld';
 import MultipleGreetings from './components/Greetings';
 import App from './App';
 import TextBlink from './components/Blink';
-import StyleExample from './components/StyleExample'
-import Register from './components/Register'
+import StyleExample from './components/StyleExample';
+import Register from './components/Register';
+import ScrollExample from './components/ScrollExample';
 
 
-registerRootComponent(Register);
+registerRootComponent(ScrollExample);
