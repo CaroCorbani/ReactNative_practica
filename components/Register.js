@@ -5,8 +5,7 @@ View,
 TextInput,
 StyleSheet,
 Keyboard,
-Alert,
-TouchableNativeFeedback}from 'react-native';
+Alert}from 'react-native';
 import Button from 'react-native-button';
 
 export default class Register extends Component {
@@ -66,13 +65,6 @@ export default class Register extends Component {
           SIGN UP
           </Button>
 
-           {/* <TouchableNativeFeedback 
-          // onPress={this._onPressButton}
-          // useForeground= {false}>
-          //   <View style={ styles.btnC}>
-          //     <Text>Touch Button</Text>
-          //   </View>
-          // </TouchableNativeFeedback> Only android  */}
       </View>
     );
   }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { 
   ScrollView,
-  Image, View, Text,
+  Image,
   Dimensions } from 'react-native';
 
   export default class ScrollExample extends Component {
